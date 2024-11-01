@@ -76,6 +76,12 @@ PRODUCT_TARGET_VNDK_VERSION := current
 # API
 PRODUCT_SHIPPING_API_LEVEL := 32
 
+#METADATA
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.crypto.volume.metadata.method=dm-default-key \
+    ro.crypto.dm_default_key.options_format.version=2 \
+    ro.crypto.volume.options=::v2
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1

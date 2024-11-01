@@ -18,8 +18,6 @@ my_product /my_product ext4 ro,barrier=1 wait,slotselect,logical,first_stage_mou
 my_product /my_product erofs ro wait,slotselect,logical,first_stage_mount,nofail
 my_engineering /my_engineering ext4 ro,barrier=1 wait,slotselect,logical,first_stage_mount,nofail
 my_engineering /my_engineering erofs ro wait,slotselect,logical,first_stage_mount,nofail
-my_company /my_company ext4 ro,barrier=1 wait,slotselect,logical,first_stage_mount,nofail
-my_company /my_company erofs ro wait,slotselect,logical,first_stage_mount,nofail
 my_carrier /my_carrier ext4 ro,barrier=1 wait,slotselect,logical,first_stage_mount,nofail
 my_carrier /my_carrier erofs ro wait,slotselect,logical,first_stage_mount,nofail
 my_region /my_region ext4 ro,barrier=1 wait,slotselect,logical,first_stage_mount,nofail
@@ -28,8 +26,6 @@ my_heytap /my_heytap ext4 ro,barrier=1 wait,slotselect,logical,first_stage_mount
 my_heytap /my_heytap erofs ro wait,slotselect,logical,first_stage_mount,nofail
 my_stock /my_stock ext4 ro,barrier=1 wait,slotselect,logical,first_stage_mount,nofail
 my_stock /my_stock erofs ro wait,slotselect,logical,first_stage_mount,nofail
-my_preload /my_preload ext4 ro,barrier=1 wait,slotselect,logical,first_stage_mount,nofail
-my_preload /my_preload erofs ro wait,slotselect,logical,first_stage_mount,nofail
 my_bigball /my_bigball ext4 ro,barrier=1 wait,slotselect,logical,first_stage_mount,nofail
 my_bigball /my_bigball erofs ro wait,slotselect,logical,first_stage_mount,nofail
 my_manifest /my_manifest ext4 ro,barrier=1 wait,slotselect,logical,first_stage_mount,nofail
@@ -131,5 +127,5 @@ my_manifest /my_manifest erofs ro wait,slotselect,logical,first_stage_mount,nofa
 /dev/block/sdd1 /usb_otg vfat nosuid,nodev defaults
 /dev/block/by-name/vbmeta /vbmeta emmc defaults defaults
 #Yang.Li@PSW.AD.Recovery.1122242, 2018/03/22, Add for critical log in mtk platform
-/dev/block/by-name/reserve2            /reserve2       emmc    defaults                                                      defaults
-/dev/block/by-name/oplusreserve2                            /opporeserve    ext4    rw,seclabel,nosuid,nodev,noatime,data=ordered                 wait
+#/dev/block/by-name/reserve2            /reserve2       emmc    defaults                                                      defaults
+#/dev/block/by-name/oplusreserve2                            /opporeserve    ext4    rw,seclabel,nosuid,nodev,noatime,data=ordered                 wait

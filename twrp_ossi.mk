@@ -24,6 +24,6 @@ $(call inherit-product, device/oplus/ossi/device.mk)
 PRODUCT_DEVICE := ossi
 PRODUCT_NAME := twrp_ossi
 PRODUCT_BRAND := oplus
-PRODUCT_MODEL := ossi
+PRODUCT_MODEL := Oneplus Nord 3
 PRODUCT_MANUFACTURER := Oneplus
 PRODUCT_RELEASE_NAME := Nord 3
