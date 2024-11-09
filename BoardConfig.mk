@@ -1,4 +1,4 @@
-DEVICE_PATH := device/oplus/ossi
+DEVICE_PATH := device/oneplus/vitamin
 
 # Build Hack
 BUILD_BROKEN_DUP_RULES := true
@@ -27,7 +27,7 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Assertation
-TARGET_OTA_ASSERT_DEVICE := OP556FL1,ossi
+TARGET_OTA_ASSERT_DEVICE := OP556FL1,OP5927
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := ossi
