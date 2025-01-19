@@ -146,7 +146,7 @@
 /lib/modules/ktz8866.ko: /lib/modules/oplus_project.ko /lib/modules/oplusboot.ko /lib/modules/buildvariant.ko
 /lib/modules/phy-mtk-ufs.ko:
 /lib/modules/panel-truly-td4330-cmd.ko: /lib/modules/mtk_panel_ext.ko
-/lib/modules/synaptics_tcm2.ko: /lib/modules/device_info.ko /lib/modules/oplus_bsp_fw_update.ko /lib/modules/oplus_bsp_tp_custom.ko /lib/modules/olc.ko /lib/modules/oplus_bsp_tp_notify.ko /lib/modules/mtk_disp_notify.ko /lib/modules/oplus_project.ko /lib/modules/oplusboot.ko /lib/modules/buildvariant.ko
+/lib/modules/synaptics_tcm2.ko: /lib/modules/device_info.ko /lib/modules/oplus_bsp_fw_update.ko /lib/modules/oplus_bsp_tp_custom.ko /lib/modules/olc.ko /lib/modules/oplus_bsp_tp_notify.ko /lib/modules/mtk_disp_notify.ko /lib/modules/mtk_boot_common.ko /lib/modules/oplus_project.ko /lib/modules/oplusboot.ko /lib/modules/buildvariant.ko
 /lib/modules/tcpc_mt6375.ko: /lib/modules/tcpc_class.ko /lib/modules/pd_dbg_info.ko
 /lib/modules/mt6338-core.ko:
 /lib/modules/oplus_project.ko: /lib/modules/oplusboot.ko /lib/modules/buildvariant.ko
