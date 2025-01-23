@@ -90,8 +90,6 @@ alias of:N*T*Cmediatek,mt6765-i2c i2c_mt65xx
 alias of:N*T*Cmediatek,mt6765-i2cC* i2c_mt65xx
 alias of:N*T*Cmediatek,mt6768-i2c i2c_mt65xx
 alias of:N*T*Cmediatek,mt6768-i2cC* i2c_mt65xx
-alias of:N*T*Coplus21007_samsung_amb670yf01_qhd_dsi_cmd oplus21007_samsung_amb670yf01_qhd_dsi_cmd
-alias of:N*T*Coplus21007_samsung_amb670yf01_qhd_dsi_cmdC* oplus21007_samsung_amb670yf01_qhd_dsi_cmd
 alias of:N*T*Cmediatek,mt6357-battery_oc_throttling mtk_battery_oc_throttling
 alias of:N*T*Cmediatek,mt6357-battery_oc_throttlingC* mtk_battery_oc_throttling
 alias of:N*T*Cmediatek,mt6358-battery_oc_throttling mtk_battery_oc_throttling
@@ -259,8 +257,6 @@ alias of:N*T*Cmediatek,mt8183-wdt mtk_wdt
 alias of:N*T*Cmediatek,mt8183-wdtC* mtk_wdt
 alias of:N*T*Ctianma,nt36672e,vdo,120hz panel_tianma_nt36672e_vdo_120hz_hfp
 alias of:N*T*Ctianma,nt36672e,vdo,120hzC* panel_tianma_nt36672e_vdo_120hz_hfp
-alias of:N*T*Cfoldable,fhd,cmd panel_foldable_fhd_cmd
-alias of:N*T*Cfoldable,fhd,cmdC* panel_foldable_fhd_cmd
 alias of:N*T*Cmediatek,mt6363-auxadc mtk_spmi_pmic_adc
 alias of:N*T*Cmediatek,mt6363-auxadcC* mtk_spmi_pmic_adc
 alias of:N*T*Cmediatek,mt6368-auxadc mtk_spmi_pmic_adc
@@ -693,8 +689,6 @@ alias of:N*T*Cmediatek,mt6338_pmic mt6338_core
 alias of:N*T*Cmediatek,mt6338_pmicC* mt6338_core
 alias i2c:mt6338_pmic mt6338_core
 alias char-major-21-* sg
-alias of:N*T*Coplus22021_boe_nt37701a_fhd_dsi_cmd oplus22021_boe_nt37701a_fhd_dsi_cmd
-alias of:N*T*Coplus22021_boe_nt37701a_fhd_dsi_cmdC* oplus22021_boe_nt37701a_fhd_dsi_cmd
 alias of:N*T*Cmediatek,clk-disable-unused clk_disable_unused
 alias of:N*T*Cmediatek,clk-disable-unusedC* clk_disable_unused
 alias of:N*T*Cmediatek,devinfo nvmem_mtk_devinfo
@@ -704,8 +698,6 @@ alias of:N*T*Cmediatek,pwm-ledsC* leds_mtk_pwm
 alias of:N*T*Cmediatek,mt6338-auxadc mt6338_auxadc
 alias of:N*T*Cmediatek,mt6338-auxadcC* mt6338_auxadc
 alias platform:mt6373-regulator mt6373_regulator
-alias of:N*T*Coplus22021_samsung_amf680cm01_fhd_dsi_cmd oplus22021_samsung_amf680cm01_fhd_dsi_cmd
-alias of:N*T*Coplus22021_samsung_amf680cm01_fhd_dsi_cmdC* oplus22021_samsung_amf680cm01_fhd_dsi_cmd
 alias gpio:oplus-gpio oplus_gpio
 alias of:N*T*Coplus,oplus-gpio oplus_gpio
 alias of:N*T*Coplus,oplus-gpioC* oplus_gpio
@@ -767,8 +759,6 @@ alias of:N*T*Cmediatek,common-peri-iommu-m7-bank4 iommu_secure
 alias of:N*T*Cmediatek,common-peri-iommu-m7-bank4C* iommu_secure
 alias of:N*T*Cmediatek,common-emimpu emi_mpu
 alias of:N*T*Cmediatek,common-emimpuC* emi_mpu
-alias of:N*T*Coplus22021_boe_nt37705_fhd_cmd oplus22021_boe_nt37705_fhd_cmd
-alias of:N*T*Coplus22021_boe_nt37705_fhd_cmdC* oplus22021_boe_nt37705_fhd_cmd
 alias of:N*T*Cmediatek,mt6983-mmqos mmqos_mt6983
 alias of:N*T*Cmediatek,mt6983-mmqosC* mmqos_mt6983
 alias of:N*T*Carm,sec-rng sec_rng
@@ -827,8 +817,6 @@ alias of:N*T*Cmediatek,common-mmc-v2 mtk_mmc
 alias of:N*T*Cmediatek,common-mmc-v2C* mtk_mmc
 alias of:N*T*Cmediatek,rt-pd-manager rt_pd_manager
 alias of:N*T*Cmediatek,rt-pd-managerC* rt_pd_manager
-alias of:N*T*Coplus,oplus-thermal oplus_ipa_thermal
-alias of:N*T*Coplus,oplus-thermalC* oplus_ipa_thermal
 alias of:N*T*Cmediatek,xsphy phy_mtk_xsphy
 alias of:N*T*Cmediatek,xsphyC* phy_mtk_xsphy
 alias of:N*T*Cmediatek,mt6983-mml mtk_mml
@@ -954,8 +942,6 @@ alias of:N*T*Cmediatek,chargerC* oplus_chg
 alias i2c:p9418-charger oplus_chg
 alias of:N*T*Cmediatek,charger,pd mtk_pd_charging
 alias of:N*T*Cmediatek,charger,pdC* mtk_pd_charging
-alias of:N*T*Coplus22921_novatek_nt36532w_vdo_144hz oplus22921_novatek_nt36532w_vdo_144hz
-alias of:N*T*Coplus22921_novatek_nt36532w_vdo_144hzC* oplus22921_novatek_nt36532w_vdo_144hz
 alias of:N*T*Cmediatek,mt6895-spmi_pmif_mpu spmi_mtk_mpu
 alias of:N*T*Cmediatek,mt6895-spmi_pmif_mpuC* spmi_mtk_mpu
 alias of:N*T*Cmediatek,mt6983-spmi_pmif_mpu spmi_mtk_mpu
